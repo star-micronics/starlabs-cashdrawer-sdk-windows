@@ -55,13 +55,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Device.Net, Version=4.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Device.Net.4.2.1\lib\net45\Device.Net.dll</HintPath>
+      <HintPath>packages\Device.Net.4.2.1\lib\net45\Device.Net.dll</HintPath>
     </Reference>
     <Reference Include="Hid.Net, Version=4.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Hid.Net.4.2.1\lib\net45\Hid.Net.dll</HintPath>
+      <HintPath>packages\Hid.Net.4.2.1\lib\net45\Hid.Net.dll</HintPath>
     </Reference>
-    <Reference Include="StarUsbCashDrawer">
-      <HintPath>..\StarUsbCashDrawer\bin\Release\net45\StarUsbCashDrawer.dll</HintPath>
+    <Reference Include="StarUsbCashDrawer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\StarUsbCashDrawer.1.0.0\lib\net45\StarUsbCashDrawer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -73,9 +73,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Usb.Net, Version=4.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Usb.Net.4.2.1\lib\net45\Usb.Net.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
