@@ -33,3 +33,11 @@ The VID (Vendor ID) for Star Micronics USB cash drawers is 0519 (in HEX). The PI
 The following table outlines how the DIP switches should be configured to assign a specific USB ID. The default factory setting is USB ID 1011, with all switches set to 0 (OFF).
 
 <img width="685" alt="viv_pid1" src="https://github.com/user-attachments/assets/297e6667-2d6a-4808-97d4-fdfd71f7a04a" />
+
+## USB Interface PIDs
+The PID changes based on the DIP switch settings (USB ID). Here’s how the USB ID relates to the PID:
+
+- USB ID 1011: Default PID
+- USB IDs 1012 - 1018: Custom PIDs, assigned based on the DIP switch configurations.
+  
+This customization allows users to track multiple drawers and distinguish them within their software environment.
