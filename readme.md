@@ -1,7 +1,7 @@
 # USB Cash Drawer SDK for Windows - from Star Labs
 
-SDK for SMD2 Max and CD3 Value series USB Cash Drawers.  
-More info on the Cash Drawers can be found on our [website](https://www.starmicronics.com/pages/pos-cash-register-drawers).
+SDK for Star CD5 USB Cash Drawer.  
+More info on the Cash Drawer can be found on our [website](https://starmicronics.com/product/max-series-cash-drawers-cd5/).
 
 This SDK is distributed as a DLL and a sample app is provided to demonstrate usage.  
 
